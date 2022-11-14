@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #e7e7e7;
+  font-family: Inter;
+  font-style: normal;
+}
+
+/* GENERAL */
+.general {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 40px 144px;
+}
+
+/*GENERAL TOP*/
+.general__top {
+  width: 570px;
+  background-image: url(../img/Rectangle\ 6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.general__top-search {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 5px;
+  margin-top: 60px;
+  margin-left: 60px;
+  text-align: center;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px #fff solid;
+  border-radius: 10px;
+}
+.general__top-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  margin-top: 60px;
+  margin-left: 60px;
+  color: #ffffff;
+}
+.general__top-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 25px;
+  margin-left: 60px;
+  color: #ffffff;
+}
+
+.general__top-advertising {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+  padding: 28px 140px;
+  margin-top: 200px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4dc490;
+  border-radius: 0px 0px 20px 20px;
+}
+
+/*GENERAL BOTTOM*/
+.general__bottom {
+  width: 570px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+.general__bottom-heading {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  padding-top: 55px;
+  padding-bottom: 35px;
+  margin-left: 60px;
+  color: #000000;
+}
+.general__bottom-list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 0 60px;
+}
+.general__bottom-item {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 10px;
+  line-height: 19px;
+  width: 450px;
+  color: #555555;
+  border: none;
+  border-bottom: 1px solid #555555;
+}
+
+.general__bottom-button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 20px 145px;
+  margin-top: 25px;
+  color: #ffffff;
+  background-color: #655af2;
+  border-radius: 15px;
+  border: transparent;
+}
+
+.general__bottom-button-information {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #555555;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.information {
+  color: #f03535;
+  text-decoration: underline;
+}
