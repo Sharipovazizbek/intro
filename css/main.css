@@ -103,7 +103,9 @@ img {
 .general__top {
   width: 100%;
   max-width: 570px;
+  background-color: #222;
   background-image: url(../img/Rectangle\ 6.jpg);
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
@@ -114,14 +116,14 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  padding: 5px;
+  padding: 5px 15px;
   margin-top: 60px;
   margin-left: 60px;
   text-align: center;
   color: #ffffff;
   background-color: transparent;
   border: 1px #fff solid;
-  border-radius: 10px;
+  border-radius: 41px;
 }
 .general__top-heading {
   font-weight: 700;
@@ -186,6 +188,11 @@ img {
   border-bottom: 1px solid #555555;
 }
 
+.general__bottom-item:focus {
+  color: #000000;
+  border: #000000;
+}
+
 .general__bottom-button {
   font-weight: 600;
   font-size: 16px;
@@ -193,7 +200,7 @@ img {
   padding: 20px 145px;
   margin-top: 25px;
   color: #ffffff;
-  background-color: #655af2;
+  background-color: var(--purple);
   border-radius: 15px;
   border: transparent;
 }
@@ -209,6 +216,7 @@ img {
 }
 
 .information {
-  color: #f03535;
+  font-weight: 500;
+  color: var(--red);
   text-decoration: underline;
 }

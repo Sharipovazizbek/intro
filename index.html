@@ -50,33 +50,49 @@
               get free 7 days
             </h2>
 
-            <form class="general__bottom-list">
+            <form
+              class="general__bottom-list"
+              action="https://echo.htmlacademy.ru"
+              method="post"
+            >
               <label class="general__bottom-items">
                 <input
                   class="general__bottom-item"
-                  type="name"
-                  placeholder="Name"
+                  type="text"
+                  name="name"
+                  placeholder="First name"
+                  aria-label="Name"
+                  required
                 />
               </label>
               <label class="general__bottom-items">
                 <input
                   class="general__bottom-item"
-                  type="name"
+                  type="text"
+                  name="last name"
                   placeholder="Last name"
+                  aria-label="Last name"
+                  required
                 />
               </label>
               <label class="general__bottom-items">
                 <input
                   class="general__bottom-item"
                   type="email"
+                  name="email"
                   placeholder="Email Address"
+                  aria-label="email"
+                  required
                 />
               </label>
               <label class="general__bottom-items">
                 <input
                   class="general__bottom-item"
                   type="password"
+                  name="password"
                   placeholder="Password"
+                  aria-label="password"
+                  required
                 />
               </label>
 
